@@ -1,0 +1,63 @@
+.Navigation {
+    position: relative ;
+    width : 280px ;
+    height: 100vh;
+    box-shadow: 0px 0px 8px  rgb(from var(--black) r g b / 100%);
+
+}
+
+.Logo {
+    width : inherit ;  
+    cursor: pointer; 
+}
+
+.MainMenuHeading {
+    font-size: 12px;
+    font-weight: 600;
+    color : var(--blackTint1);
+    padding: 0 1.5rem ;
+    /* margin-bottom: -0.25rem; */
+}
+
+.NavLinks {
+    display: flex;
+    flex-direction: column;
+    width : 96% ; 
+    gap:0.1rem ;
+    padding:0.3rem ;
+    
+}
+
+.NavLink {
+     padding : 0.75rem 0.5rem;
+     color : var(--blackTint1) ;
+     font-weight: 600;
+     font-size: 14px;
+     border-radius: 8px;
+     display: flex;
+     align-items: center ;
+     gap : 0.5rem ;
+}
+
+.NavLink.Active {
+    background-color: var(--color7);
+    color: var(--black);
+    
+}
+
+.NavLink:hover {
+    background-color: var(--color1);
+    border-radius: 4px;
+    color : var(--black)
+}
+
+.NavLinkIcon {
+    height : 20px ;
+
+}
+
+.NavLinkIconWrapper {
+    width : 34px ;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,27 @@
+.SearchBar {
+    margin-top:  1rem;
+	position: relative;
+    padding: 0.1rem 0.75rem;
+    border-radius: 0.5rem;
+	border: 2px solid var(--whiteTint1);
+    width : 100% ;
+    display: flex;
+    gap : 0.5rem;
+    align-items: center;
+}
+
+.SearchIcon {
+    width : 18px ;
+
+}
+.MicIcon {
+    width : 16px ;
+}
+
+.SearchBar input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}

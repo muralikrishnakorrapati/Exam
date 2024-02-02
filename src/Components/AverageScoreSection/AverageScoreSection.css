@@ -1,0 +1,105 @@
+.AverageScoreSection {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    border: 2px solid var(--whiteTint1) ;
+    z-index: 10;
+    height : 240px ;
+    
+}
+
+.AverageRing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem ;
+    cursor: pointer;
+}
+
+.AverageScoreHeading {
+    margin-top: 0.65rem;
+    margin-bottom: -0.5rem;
+    font-size: 18px;
+    z-index: 10;
+    font-weight: 600;
+    color: var(--black);
+    
+}
+
+.percentageRing {
+    position: relative;
+}
+
+.chartPercentage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    background-color: transparent ;
+	transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* .chartPercentage span {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--color1);
+} */
+
+.chartPercentage input {
+    /* border-bottom: 1px solid var(--color1) ; */
+    font-size: 28px;
+	font-weight: 600;
+	color: var(--black);
+	z-index: 3;
+    width : 64px ;
+    height : 48px ;
+    outline: none;
+    text-align: center;
+    padding : 0px 4px ;
+    border: 0;
+    background-color: transparent ;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Optional: You can adjust margin for alignment */
+}
+
+.AverageScoreDescription {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap : 0.75rem ; 
+}
+
+
+.AverageScoreDescription a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color1);
+}
+
+.AverageScoreDescription .Arrow {
+    font-size: 14px;
+    display: inline;
+    color: var(--black);
+
+}
+
+.PercentageHeading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.AboutGraph {
+    font-size: 14px ;
+    color: var(--blackTint1);
+
+}

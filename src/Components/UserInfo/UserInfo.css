@@ -1,0 +1,103 @@
+.UserInfo {
+	position: relative;
+    width: 100%;
+    height : 112px ;
+    overflow: hidden;
+}
+
+.userOptionsWrapper {
+    display: flex;
+	justify-content: flex-end;
+	padding: 0.75rem 0.25rem;
+	align-items: center;
+	gap: 1.25rem;
+
+}
+
+.NotificationIconWrapper {
+	position: relative;
+	width: 24px;
+	height: 28px;
+}
+
+.NotificationBellIcon {
+    position: relative;
+    top : 3px ;
+	width: 20px;
+	height: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Notificationcount {
+	position: absolute;
+	top: 4px;
+	right: 0px;
+	padding: 3px 5px;
+	border-radius: 50%;
+	background-color: rgb(136, 0, 0);
+	color: var(--white);
+	font-size: 8px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+.UserDetails {
+    position: relative;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.UserImage {
+	width: 32px;
+	height: 32px;
+	border-radius: 100%;
+}
+
+.userName {
+	font-size: 14px;
+	font-weight: 600;
+	color: var(--black);
+}
+
+.ArrowIcon {
+	width: 11px;
+	height: 7px;
+}
+
+.OnlineIcon {
+	width: 14px;
+	height: 14px;
+    border-radius: 100%;
+    border: 3px solid var(--white);
+	background-color: #31a24c;
+    position:absolute;
+    left : 20px ;
+    top : 22px ;
+}
+
+.userGreetingWrapper {
+    display: flex;
+    align-items: flex-end;    
+    justify-content: flex-end;
+    flex-direction: column;
+    padding : 0.25rem 0.5rem ;
+    gap : 0.2rem ;
+
+}
+
+.userGreetingWrapper span:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+.userGreetingWrapper span:nth-child(2){
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blackTint1);
+}
+

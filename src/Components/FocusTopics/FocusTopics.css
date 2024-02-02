@@ -1,0 +1,70 @@
+.FocusTopics {
+	border-radius: 0.25rem;
+	border: 2px solid var(--whiteTint1);
+    padding : 0.75rem 1rem  0.5rem ;
+    height: 356px;
+}
+
+.FocusTopicsHeading {
+	font-size: 18px;
+	font-weight: 800;
+	margin-bottom: 1rem;
+}
+
+.FocusTopicRowWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    
+}
+.FocusTopicRowWrapper:hover {
+        background-color: rgb(from var(--color7) r g b / 40% ); 
+        cursor: pointer;
+
+    
+}
+
+.FocusTopicData {
+    color: var(--blackTint1);
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+    flex-direction: column;
+    gap : 0.1rem ;
+    margin-bottom: 0.75rem;
+    
+}
+
+.ScoreTab {
+    font-size: 10px;
+    font-weight: 600;
+    background-color: var(--color1);
+    padding: 3px 10px;
+    border-radius: 16px;
+    color: var(--white);
+
+}
+
+.FocusTopicWrapper {
+	font-size: 14px;
+	display: flex;
+	gap: 2px;
+    
+}
+
+.FocusTopicNumber {
+	width: 22px;
+}
+
+.FocusTopicsFooter {
+	font-size: 12px;
+	font-weight: 800;
+	color: var(--color1);
+}
+
+.Arrow {
+	font-size: inherit;
+	display: inline;
+}

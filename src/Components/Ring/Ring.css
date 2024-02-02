@@ -1,0 +1,32 @@
+.Ring {
+	position: relative;
+}
+
+.circleCircumference {
+	stroke-dasharray: 188.4;
+	stroke-dashoffset: 0;
+	stroke: var(--color2);
+	z-index: 1;
+}
+
+.circleCircumferenceFilled {
+	stroke-dasharray: 188.4;
+	stroke-dashoffset: calc(0 - (188.4 * var(--percentage) / 100));
+	stroke: var(--color1);
+	z-index: 2;
+
+}
+
+@keyframes RingAnimate {
+    0% {
+        stroke-dashoffset: calc(0 - (188.4 * var(--percentage) / 100));
+    }
+    50% {
+        stroke-dashoffset: 0 ;
+    }
+    100% {
+        stroke-dashoffset: calc(0 - (188.4 * var(--percentage) / 100));
+    }
+}
+
+

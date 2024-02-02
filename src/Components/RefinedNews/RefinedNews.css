@@ -1,0 +1,81 @@
+.RefinedNews {
+	border-radius: 0.25rem;
+	border: 2px solid var(--whiteTint1);
+	padding: 1rem 1rem 0.5rem;
+	height: 356px;
+}
+
+.Heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.TableHeadings  {
+    display: flex;
+    flex-direction: row ;
+    align-content: flex-start;
+    gap: 1rem ;
+    padding : 1rem 0 0.5rem 0;
+    font-size: 16px ;
+    font-weight: 700 ; 
+    border-bottom: 2px solid rgb(from var(--whiteTint1) r g b / 40% ); 
+}
+
+.TableRow {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row ;
+    align-content: flex-start;
+    gap: 1rem ;
+    padding : 1rem 0 0.5rem 0.5rem;
+    font-weight: 600 ; 
+    border-bottom: 2px solid rgb(from var(--whiteTint1) r g b / 40% ); 
+    border-radius: 4px;
+
+}
+
+.TableRow:hover {
+    background-color: rgb(from var(--color7) r g b / 25% );
+    cursor: pointer; 
+
+}
+
+.ColorIcon {
+    width : 14px ;
+    height : 14px ;
+    border-radius: 4px;
+    
+}
+
+.Type {
+    width : 80px ;
+    display: flex;
+    gap : 6px 
+}
+.News {
+    width : 420px ;
+    text-wrap: wrap;
+}
+.Score {
+    width : 64px ;
+    
+}
+.Impact {
+    width : 80px ;
+    
+}
+.Probability {
+    width : 80px ;
+}
+
+.ProbabilityIcon {
+    width : max-content;
+    height : fit-content ;
+    border-radius: 4px;
+    padding : 4px 8px ;
+    background-color: rgb(from var(--color7) r g b/ 25%);
+    text-align: center;
+    color : var(--color1)
+}
+

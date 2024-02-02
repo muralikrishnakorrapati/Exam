@@ -1,0 +1,22 @@
+.MiddleSection {
+    position: relative;
+    width: 820px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem ;
+    
+}
+
+.CurrentLicence {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--blackTint1);
+    margin-bottom: 1rem;
+    padding : 0.5rem 0.75rem;
+    
+}
+
+.CurrentLicence span {
+    color: var(--color1);
+}

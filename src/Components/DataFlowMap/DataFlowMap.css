@@ -1,0 +1,11 @@
+.DataFlowMap {
+    position: relative;
+}
+
+.Values {
+    display: flex;
+    flex-direction: column;
+    gap : 0.25rem ;
+    font-size: 10px;
+    font-weight: 600;
+}

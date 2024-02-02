@@ -1,0 +1,89 @@
+.DataFlow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    border: 2px solid var(--whiteTint1) ;
+    z-index: 10;
+    height : 240px ;
+    padding : 0.5rem; 
+    gap : 0.5rem ;
+
+}
+
+.DataFlowOptions {
+    display: flex;
+    flex-direction: row ;
+    gap : 1.5rem ;
+    align-content: flex-start;
+}
+
+.DataFlowHeader {
+    display: flex;
+    justify-content: space-between;
+    padding : 0 1rem ;
+    align-items: center;
+}
+
+.DataFlowMainHeading {
+    font-size: 16px;
+    font-weight: 700;
+    
+
+}
+
+.DataFlowTimeIntervals {
+    display: flex;
+    width : max-content ;
+    border: 1px solid var(--whiteTint1);      
+}
+
+.DataFlowTimeIntervalSpan {
+    font-size: 12px;
+    font-weight: 600;
+    padding : 3px 6px;
+    cursor: pointer;
+}
+.DataFlowTimeIntervalSpan.Active {
+    color : var(--color1) ;
+    background-color: rgb(from var(--color7) r g b / 25% );
+
+}
+.DataFlowTimeIntervalSpan:hover {  
+    background-color:  rgb(from var(--color7) r g b / 25% );
+       
+}
+.DataFlowTimeIntervals {
+    display: flex;
+    gap: 0.1rem ;
+    font-size: 12px;
+    font-weight: 600;      
+}
+
+.DataFlowFilter img:nth-child(1) {
+    width : 18px ;
+    height : 18px ;
+    
+}
+.DataFlowFilter img:nth-child(2) {
+    width : 12px ;
+    height : 6px ;
+    
+}
+
+.DataFlowFilter {
+    background-color: var(--color1);
+    width : max-content ;
+    color : var(--white) ;
+    padding : 4px 8px ;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap : 0.75rem ;
+    cursor: pointer;
+    
+}

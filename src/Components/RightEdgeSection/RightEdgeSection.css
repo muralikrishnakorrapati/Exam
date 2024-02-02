@@ -1,0 +1,8 @@
+.RightEdgeSection {
+    position: relative;
+    width: 360px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap : 0.5rem ;
+}
